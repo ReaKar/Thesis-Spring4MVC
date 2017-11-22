@@ -1,0 +1,12 @@
+sudo -u postgres psql    #mpainei sthn vash 
+\list  # lista vasewn
+\c db # connected to database
+\dt # lista tables
+CREATE DATABASE db OWNER reaki # reaki is ROLE
+
+
+postgresql 9.5
+postgre ROLE------------> pass rea1992
+psql -d db -h 127.0.0.1 -U postgres     -----------------> sundewomai san client sthn vash!
+
+software-center----> etsi ksekinaei

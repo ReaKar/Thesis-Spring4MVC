@@ -1,0 +1,207 @@
+html{
+	background-color:rgb(245, 245, 245);
+}
+
+body{
+	height: 100%;
+	background-color:rgb(245, 245, 245);
+}
+
+
+#mainWrapper {
+	height: 100%;
+	background-image: -webkit-gradient(
+	linear,
+	right bottom,
+	right top,
+	color-stop(0, #EDEDED),
+	color-stop(0.08, #EAEAEA),
+	color-stop(1, #2F2F2F),
+	color-stop(1, #AAAAAA)
+);
+
+background-image: -o-linear-gradient(top, #EDEDED 0%, #EAEAEA 8%, #2F2F2F 100%, #AAAAAA 100%);
+background-image: -moz-linear-gradient(top, #EDEDED 0%, #EAEAEA 8%, #2F2F2F 100%, #AAAAAA 100%);
+background-image: -webkit-linear-gradient(top, #EDEDED 0%, #EAEAEA 8%, #2F2F2F 100%, #AAAAAA 100%);
+background-image: -ms-linear-gradient(top, #EDEDED 0%, #EAEAEA 8%, #2F2F2F 100%, #AAAAAA 100%);
+background-image: linear-gradient(to top, #EDEDED 0%, #EAEAEA 8%, #2F2F2F 100%, #AAAAAA 100%);
+}
+
+.floatRight{
+	float:right;
+	margin-right: 18px;
+}
+
+.has-error{
+	color:red;
+}
+
+.generic-container {	
+  width:95%;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #EAE7E7;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 30px black;
+}
+
+.custom-width {
+    width: 80px !important;
+}
+
+body, #mainWrapper, .form-control{
+	font-size:12px!important;
+}
+
+#mainWrapper {
+	/*height: 720px; Without explicit px values, % in children's does not work*/
+	height: 100vh; /*with Viewport-Percentage, we can handles all devices screens  */
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+.login-container {
+    margin-top: 100px;
+    background-color: floralwhite;
+    width: 40%;
+    left: 30%;
+    position: absolute;
+}
+
+.login-card {
+    width: 80%;
+    margin: auto;
+}
+
+.login-form {
+    padding: 10%;
+}
+
+.authbar{
+	margin-bottom:15px;
+}
+
+.dropdown:hover .dropdown-menu {     
+/* 	// molis paei t pontiki panw katevainei t dropdown  */
+    display: block;
+    
+}
+ 
+ .navbar-default {
+    background-color: #1f2456;
+    border-color: #eeeeec;         
+/*     //h navbar pairnei olo t xrwma */
+    border-radius: 0;
+}
+
+
+ .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+            background-image:none !important;
+            
+        }
+/*         .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus { */
+/*             background-color: #8ae234 ;   */
+             
+/*         } */
+ 
+.dropdown-menu { 
+	background-color:  #fce94f ; 
+/* 	// to kanei olo t dropdown portokali */
+   
+
+} 
+
+
+
+.dropdown-menu > li > a:hover {
+                        background-color: #1f2456;  
+                        
+/*                         //allazei t xrwma t dropdown ta memonomena */
+                        
+                        color: #eeeeec;     
+/*                          //alazei t xrwma twn grammatwn */
+                    }
+                    
+   .navbar-default .navbar-nav > li > a{
+    color: #eeeeec;              
+/* //allazei t xrwma t menu t grammata user kitrino */
+   
+ }                  
+
+
+ .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus { background-color: #fce94f!important} 
+/*   //auto mou kanei epiteloyss mple otan pav t pontiki panw */
+
+
+.list-group .list-group-item:hover{
+  background: #1f2456;
+  cursor: pointer;
+  color: #fff;
+}
+
+.list-group-item {
+  background-color: #fce94f; /* olo to xrwma t trapeziou*/
+  border-color: #fcaf3e; 
+/*   allazei t gurw girw */
+}
+
+
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+	z-index: 2;
+	color: #eeeeec;
+	background-color:#1f2456;
+	border-color: #fcaf3e;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus { /*  active class */
+      color: #000;
+      background: #fce94f;
+ }
+ 
+.assignment_open {
+	color: #00AA00;
+		
+	
+}
+
+.assignment_closed {
+	color: #AAAAAA;
+}
+
+.header{
+	color: #1f2456;
+}
+ 
+ 
+.expired{
+	color: red;
+	
+} 
+
+.soon{
+	color: #AAAAAA;
+	
+}
+
+.title-course{
+	font-family: verdana;
+	
+}
+
+.uploadcontainer{
+	background-color: bisque;
+	padding: 20px;
+}
+
+.timeRemaining{
+	color: #1f2456;
+	float: right;
+	
+}
+
